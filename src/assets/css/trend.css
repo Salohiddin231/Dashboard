@@ -1,0 +1,74 @@
+.trend {
+    padding: 30px;
+    width: 100%;
+}
+.trend_left_right {
+    display: flex;
+    align-items: start;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 224, 235);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.trend_left {
+    padding: 32px;
+}
+.trend_box {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    background: #fff;
+}
+
+.trend_title {
+    color: rgb(37, 39, 51);
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.trend_subtitle {
+    color: rgb(159, 162, 180);
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.trend_text_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trend_second_text {
+    display: flex;
+    align-items: end;
+    gap: 32px;
+
+}
+
+
+.trend_hr,
+.trend_hr2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(159, 162, 180);
+    font-family: Mulish;
+    font-size: 12px;
+}
+
+.trend_hr hr {
+    width: 16px;
+    border: 2px solid rgb(55, 81, 255);
+}
+
+.trend_hr2 hr {
+    width: 16px;
+    border: 2px solid rgb(223, 224, 235);
+}
+.trend_inp {
+    height: 432px;
+    border: none;
+    outline: none;
+}

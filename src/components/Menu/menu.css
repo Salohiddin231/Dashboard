@@ -1,0 +1,65 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 255px;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+    background: rgb(54, 55, 64);
+    z-index: 10;
+}
+
+.menu_logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 37px 32px;
+    color: rgb(164, 166, 179);
+    font-family: Muli;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.menu_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_pages {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    padding: 0 32px;
+    height: 56px;
+    width: 100%;
+    transition: .3s linear;
+}
+
+.menu_pages * {
+
+    color: #fff;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.menu_pages:hover {
+    text-decoration: none;
+    background: rgb(159, 162, 180);
+    color: #fff;
+}
+
+.menu_pages:hover * {
+    text-decoration: none;
+    color: #fff;
+}
+
+hr {
+    height: .6px;
+    border: 1px solid rgb(223, 224, 235);
+    opacity: .2;
+}
