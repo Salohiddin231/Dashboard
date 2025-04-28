@@ -2,22 +2,26 @@
     padding: 30px;
     width: 100%;
 }
+
 .trend_left_right {
     display: flex;
+    justify-content: space-between;
     align-items: start;
     box-sizing: border-box;
     border: 1px solid rgb(223, 224, 235);
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
+
 .trend_left {
     padding: 32px;
 }
+
 .trend_box {
     display: flex;
     flex-direction: column;
-    width: 780px;
     background: #fff;
+    
 }
 
 .trend_title {
@@ -44,7 +48,6 @@
     display: flex;
     align-items: end;
     gap: 32px;
-
 }
 
 
@@ -67,7 +70,9 @@
     width: 16px;
     border: 2px solid rgb(223, 224, 235);
 }
+
 .trend_inp {
+    width: 780px;
     height: 432px;
     border: none;
     outline: none;

@@ -17,7 +17,8 @@ function App() {
 
         <Menu />
 
-        <Routes>
+       <div className='global_codes'>
+       <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/Tickets' element={<Tickets />} />
           <Route path='/Ideas' element={<Ideas />} />
@@ -27,6 +28,7 @@ function App() {
           <Route path='/Settings' element={<Settings />} />
           <Route path='/Subscription' element={<Subscription />} />
         </Routes>
+       </div>
 
         
 

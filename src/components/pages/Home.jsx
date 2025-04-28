@@ -2,11 +2,14 @@ import React from 'react'
 import { Header } from '../Header/Header'
 import { CardItem } from '../CardItem'
 import { CardItemTwo } from '../CardItemTwo'
+import { Boxsi } from '../Boxsi'
+import { Boxsi2 } from '../Boxsi2'
 import '../../assets/css/card.css'
 import '../../assets/css/trend.css'
+import '../../assets/css/boxsi.css'
 export default function Home() {
     return (
-        <div>
+        <>
             <Header text='overview' />
             <section className="card">
                 <div className="container">
@@ -21,7 +24,7 @@ export default function Home() {
 
             <section className="trend">
                 <div className="container">
-                    <div className="trend_left_right">
+                    <div className="trend_left_rights">
                         <div className="trend_left_right">
                             <div className="trend_left">
                                 <div className="trend_box">
@@ -57,8 +60,17 @@ export default function Home() {
                 </div>
             </section>
 
+            <section className='boxsi'>
+                <div className="container">
+                    <ul className="boxsi_list">
+                        <Boxsi />
+                        <Boxsi2 />
+                    </ul>
+                </div>
+            </section>
 
-            
-        </div>
+
+
+        </>
     )
 }

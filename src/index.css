@@ -1,3 +1,8 @@
+/* global */
+.global_codes {
+  width: 100%;
+}
+
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
@@ -9,11 +14,10 @@
 }
 
 .container {
-  max-width: 100%;
   width: 100%;
-  margin: 0 auto;
-}
+  padding: 0px 30px 0px 285px;
 
+}
 
 li {
   list-style: none;

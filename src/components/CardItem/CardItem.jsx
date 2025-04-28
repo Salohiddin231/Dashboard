@@ -1,4 +1,3 @@
-
 export function CardItem(props) {
     return (
         <div className="card_card">
